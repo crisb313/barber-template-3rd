@@ -221,10 +221,11 @@ margin-bottom: 35px;
     display: flex;
     padding: 50px 30px;
     flex-direction: column;
+    align-items: center;
 }
 
 .tag{
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 100%;
     padding: 10px 15px;
     text-align: center;
@@ -387,6 +388,7 @@ margin-bottom: 35px;
 
 .price-list .tag h2{
     text-wrap: nowrap;
+    font-size: 20px;
 }
 
 .price-list h2 span{
@@ -634,5 +636,13 @@ transition: 0.3s;
 
     .footer{
         flex-direction: row;
+    }
+
+    .price-list .tag h2{
+        font-size: auto;
+    }
+
+    .tag {
+        font-size: 1.75rem;
     }
 }
